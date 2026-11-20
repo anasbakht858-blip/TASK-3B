@@ -99,8 +99,8 @@ img { display: block; max-width: 100%; }
 }
 
 .award__list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 0;
 }
 
